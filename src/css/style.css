@@ -8,23 +8,22 @@ body {
 
 #home-section {
   background: url("../img/home.jpg") no-repeat;
-  min-height: 700px;
+  min-height: 900px;
   background-size: cover;
   background-attachment: fixed; }
   #home-section .dark-overlay {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 700px; }
+    min-height: 900px; }
   #home-section .home-inner {
     padding-top: 150px; }
   #home-section .card-form {
     opacity: 0.8; }
   #home-section .fa {
-    color: #f2cb0c;
-    background: #fff;
+    color: #FFCA00;
     padding: 4px;
     border-radius: 5px;
     font-size: 30px; }
@@ -32,6 +31,7 @@ body {
 #explore-section .fa, #share-section .fa {
   color: #fff;
   background: #333;
+  margin-top: 100px;
   padding: 4px;
   border-radius: 5px;
   font-size: 30px; }
@@ -42,3 +42,11 @@ body {
   padding: 4px;
   border-radius: 5px;
   font-size: 30px; }
+
+
+.title-section-competencias{
+  background-color: #e8dc5a;
+  border-top: 2px white solid;
+  padding-top: 15px;
+  color: #333;
+}
