@@ -23,7 +23,7 @@ body {
   #home-section .card-form {
     opacity: 0.8; }
   #home-section .fa {
-    color: #FFCA00;
+    color: #e8dc5a;
     padding: 4px;
     border-radius: 5px;
     font-size: 30px; }
@@ -34,10 +34,10 @@ body {
   /**margin-top: 100px;*/
   padding: 4px;
   border-radius: 5px;
-  font-size: 30px; }
+  font-size: 20px; }
 
 #create-section .fa {
-  color: #f2cb0c;
+  color: #e8dc5a;
   padding: 4px;
   font-size: 30px; }
 
@@ -47,4 +47,15 @@ body {
   border-top: 2px white solid;
 
   color: #333;
+}
+
+@media(min-width: 993px){
+    .bg-teste{
+      border-color: 2px white solid;
+    }
+}
+@media(min-width: 320px) and (max-width: 992px){
+  .img-home{
+    border-radius: 50%;
+  }
 }
