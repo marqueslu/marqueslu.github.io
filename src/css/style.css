@@ -54,8 +54,37 @@ body {
       border-color: 2px white solid;
     }
 }
-@media(min-width: 320px) and (max-width: 992px){
-  .img-home{
-    border-radius: 50%;
+@media(min-width: 320px) and (max-width: 359px){
+  img .img-home{
+    border-radius: 50px;
   }
+
+
+   #competencias-head-section{
+     margin-top: 850px;
+   }
+   .font{
+     font-size: 30px;
+   }
+}
+
+@media(min-width: 375px) and (max-width: 576px){
+   #competencias-head-section{
+     margin-top: 830px;
+   }
+}
+
+@media(min-width: 360px) and (max-width: 374px){
+   #competencias-head-section{
+     margin-top: 827px;
+   }
+   .font{
+     font-size: 30px;
+   }
+}
+
+@media(min-width: 440px) and (max-width: 720px){
+   #competencias-head-section{
+     margin-top: 950px;
+   }
 }
