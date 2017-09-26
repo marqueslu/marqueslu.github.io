@@ -7,19 +7,18 @@ body {
   opacity: 0.8; }
 
 #home-section {
-  background: url("../img/home.jpg") no-repeat;
-  min-height: 900px;
+  /*min-height: 56.2em;*/
   background-size: cover;
   background-attachment: fixed; }
   #home-section .dark-overlay {
     background-color: rgba(0, 0, 0, 0.3);
-    position: absolute;
+    
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 900px; }
+    /*min-height: 900px;*/ }
   #home-section .home-inner {
-    padding-top: 150px; }
+    padding-top: 100px; }
   #home-section .card-form {
     opacity: 0.8; }
   #home-section .fa {
@@ -34,7 +33,8 @@ body {
   /**margin-top: 100px;*/
   padding: 4px;
   border-radius: 5px;
-  font-size: 20px; }
+  font-size: 20px;
+ }
 
 #create-section .fa {
   color: #e8dc5a;
@@ -45,11 +45,11 @@ body {
 .title-section-competencias{
   background-color: #e8dc5a;
   border-top: 2px white solid;
-
+ 
   color: #333;
 }
 
-@media(min-width: 993px){
+/*@media(min-width: 993px){
     .bg-teste{
       border-color: 2px white solid;
     }
@@ -88,3 +88,8 @@ body {
      margin-top: 950px;
    }
 }
+
+img .img-home{
+  border-radius: 50%;
+}*/
+
