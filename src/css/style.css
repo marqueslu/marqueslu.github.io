@@ -49,6 +49,14 @@ body {
   color: #333;
 }
 
+.title-section-projetos{
+  background-color: #e8dc5a;
+  border-top: 2px #cecece solid;
+ 
+  color: #333;
+}
+
+
 /*@media(min-width: 993px){
     .bg-teste{
       border-color: 2px white solid;
